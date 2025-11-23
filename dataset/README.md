@@ -56,8 +56,10 @@ df = pd.read_csv('PHI_ISIIL_Phishing_URL_Dataset.csv')
 
 # Display first few rows
 print(df.head())
+ ```
 
 3️⃣ Train a Machine Learning Model
+```python
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
@@ -74,33 +76,23 @@ model.fit(X_train, y_train)
 # Evaluate model
 y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
-
+ ```
 
 📚 Citation
+```python
 @misc{phiisiil2023,
   title={PHI-ISIIL Phishing URL Dataset},
   author={Safaa Zareapoor and Abdullah Gani},
   year={2023},
   url={https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset}
 }
-
+ ```
 
 ⚖️ License
 
 This dataset is provided for research purposes. Please refer to the original source for licensing details.
-
 This repository serves as a resource to help combat cyber threats using machine learning techniques. Happy coding! 🚀
 
 
 ---
 
-### ✅ Changes made:
-- Added emojis/icons to headings (`🛡️`, `📖`, `🌐`, `📊`, `📂`, `🚀`, `⚡`, `📚`, `⚖️`)  
-- Added small inline icons for key items like ✅ for legitimate, ⚠️ for phishing  
-- Made it visually engaging while keeping Markdown fully GitHub-friendly  
-
----
-
-If you want, I can also **add a few decorative badges** (like Python, CSV, GitHub stars) at the top to make it look like a professional GitHub dataset README.  
-
-Do you want me to do that?
