@@ -74,6 +74,8 @@ model.fit(X_train, y_train)
 # Evaluate model
 y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
+
+
 📚 Citation
 @misc{phiisiil2023,
   title={PHI-ISIIL Phishing URL Dataset},
@@ -81,6 +83,7 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
   year={2023},
   url={https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset}
 }
+
 
 ⚖️ License
 
