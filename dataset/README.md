@@ -58,7 +58,7 @@ df = pd.read_csv('PHI_ISIIL_Phishing_URL_Dataset.csv')
 print(df.head())
  ```
 
-3️⃣ Train a Machine Learning Model
+### 3️⃣ Train a Machine Learning Model
 ```python
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -78,7 +78,7 @@ y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
  ```
 
-📚 Citation
+###📚 Citation
 ```python
 @misc{phiisiil2023,
   title={PHI-ISIIL Phishing URL Dataset},
@@ -88,7 +88,7 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 }
  ```
 
-⚖️ License
+### ⚖️ License
 
 This dataset is provided for research purposes. Please refer to the original source for licensing details.
 This repository serves as a resource to help combat cyber threats using machine learning techniques. Happy coding! 🚀
